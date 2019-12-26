@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon"/>
+    <title>build this webpage - Google Search</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img id="logo" src="assets/logo.png" alt="logo">
+            <form action="#" method="get">
+                <div id="search-bar">
+                    <input id="search" type="text" value="build this webpage">
+                    <div id="mic"></div>
+                    <div id="search-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 
+                                9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 
+                                0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                            </path>
+                        </svg> 
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="misc">
+            <a href="#" id="products">
+                <svg id="products-bar" viewBox="0 0 24 24">
+                    <path 
+                        d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,
+                        -0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 
+                        -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 
+                        2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 
+                        2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 
+                        -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 
+                        2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                    </path>
+                </svg>
+            </a>
+            <a id="sign-in" href="#">Sign in</a>
+        </div>
+    </header>
+    <div id="nav-wrapper">
+        <nav>
+            <div>
+                <div class="nav-item selected">
+                    <span class="nav-icon"><img src="assets/search.svg" alt=""></span>
+                    All
+                </div>
+                <div class="nav-item">
+                    <span class="nav-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0V0z" fill="none"></path>
+                                <path d="M20.08 15.03l-.08.08v3.87c0 .44-.28.8-.67.93L12.41 
+                                13l2.2-2.2c-.36-.58-.71-1.18-1.02-1.81L4 18.58V4.99a1 1 0 0 
+                                1 1-1h7.57c.09-.72.29-1.39.58-2H5c-1.64 0-3 1.36-3 3v13.99c0 
+                                1.64 1.36 3 3 3h14a3 3 0 0 0 3-2.99v-6.21a27.8 27.8 0 0 1-1.92 
+                                2.25zM12 19.99H5.41l5.58-5.58 5.57 5.57H12v.01zM19 0c-3 0-5 
+                                1.99-5 4.99 0 3.82 5 9 5 9s5-5.18 5-9c0-3-2-4.99-5-4.99zm0 
+                                6.74c-.96 0-1.75-.79-1.75-1.75s.79-1.75 1.75-1.75 1.75.79 
+                                1.75 1.75-.79 1.75-1.75 1.75z"></path>
+                            </svg>
+                    </span>
+                    Maps
+                </div>
+                <div class="nav-item">
+                    <span class="nav-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0V0z" fill="none"></path>
+                                <path clip-rule="evenodd" d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 
+                                0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 
+                                2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22
+                                4.4v15.1a2.5 2.5 0 0 1-2.5 2.5z" fill-rule="evenodd"></path>
+                            </svg>
+                    </span>
+                    Videos
+                </div>
+                <div class="nav-item">
+                    <span class="nav-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0V0z" fill="none"></path>
+                                <path d="M12 11h6v2h-6v-2zm-6 6h12v-2H6v2zm0-4h4V7H6v6zm16-7.22v12.44c0 
+                                1.54-1.34 2.78-3 2.78H5c-1.64 0-3-1.25-3-2.78V5.78C2 4.26 3.36 3 5 
+                                3h14c1.64 0 3 1.25 3 2.78zM19.99 12V5.78c0-.42-.46-.78-1-.78H5c-.54 0-1 
+                                .36-1 .78v12.44c0 .42.46.78 1 .78h14c.54 0 1-.36 1-.78V12zM12 
+                                9h6V7h-6v2z"></path>
+                            </svg>
+                    </span>
+                    News
+                </div>
+                <div class="nav-item">
+                    <span class="nav-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0V0z" fill="none"></path>
+                                <path d="M14 13l4 5H6l4-4 1.79 1.78L14 13zm-6.01-2.99A2 2 0 0 0 8 6a2 2 0 
+                                0 0-.01 4.01zM22 5v14a3 3 0 0 1-3 2.99H5c-1.64 0-3-1.36-3-3V5c0-1.64 1.36-3 
+                                3-3h14c1.65 0 3 1.36 3 3zm-2.01 0a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 
+                                0 1 1h7v-.01h7a1 1 0 0 0 1-1V5z"></path>
+                            </svg>
+                    </span>
+                    Images
+                </div>
+                <div class="nav-item">
+                    <span class="nav-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0V0z" fill="none"></path>
+                                <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 
+                                2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
+                            </svg>
+                    </span>
+                    More
+                </div>
+            </div>
+            <div>
+                <div class="nav-item">Settings</div>
+                <div class="nav-item" id="tools">Tools</div>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <p id="results">About 151,000,000 results (0.37 seconds)</p>
+        
+        <section>
+            <h3 class="title">How To Build Your Own Website | It's Easy with Wix.com‎</h3>
+            <cite class="url"><span id="ad">Ad</span> www.wix.com/ <span class="arrow"></span></cite>‎
+            <p class="description">Join Over 160 Million Users Who Trust Wix as the Top 
+                <strong>Website Building</strong> Platform. It all Starts with a Stunning <strong>Website</strong>. 
+                Begin Your Online Journey Today. Easy-to-add blog. Free multilingual fonts. 
+                1000s of free images. Advanced image editor. 100s of Apps.
+            </p>
+            <ul id="sub-content">
+                <li>
+                    <h3 class="title">Free Hosting</h3>
+                    <p class="description">100% Free Website Hosting &amp; Design<br>Fast &amp; Easy Online Website Builder</p>
+                </li>
+                <li>
+                    <h3 class="title">Online Store Builder</h3>
+                    <p class="description">Build Your Own Site in Minutes. <br> Open Your Store &amp; Start Selling!</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <div id="searched">
+                <div id="searched-heading">
+                        <h4>People also search for</h4><span id="cross"></span>
+                </div>
+                <div id="searched-content">     
+                    <ul>
+                        <li>website</li>
+                        <li>creating a website for your business</li>
+                        <li>how to create a website pdf</li>
+                        <li>creating a website 101</li>
+                    </ul>
+                    <ul>
+                        <li>build a website everyday</li>
+                        <li>create professional website</li>
+                        <li>the odin project</li>
+                        <li>github</li>
+                    </ul>
+                </div>        
+            </div>
+        </section>
+        <br>
+        <section>
+            <h3 class="title">build this webpage - GitHub Pages</h3>
+            <cite class="url">https://christine-27.github.io › google-homepage <span class="arrow"></span></cite>‎
+            <p class="description">TO CREATE A <strong>WEBSITE</strong> WITH WORDPRESS (OR JOOMLA &amp; DRUPAL), USE 
+                ONE CLICK INSTALLATION: Log in to your hosting account. Go to your control panel. Look for the 
+                “WordPress” or “<strong>Website</strong>” icon. Choose the domain where you want to install your <strong>website</strong>.
+            </p>
+        </section>
+        <br>
+        <section>
+            <h3 class="title">build this webpage - GitHub Pages</h3>
+            <cite class="url">https://victor-lf.github.io › google-search-results <span class="arrow"></span></cite>‎
+            <p class="description">TO CREATE A <strong>WEBSITE</strong> WITH WORDPRESS (OR JOOMLA &amp; DRUPAL), USE 
+                ONE CLICK INSTALLATION: Log in to your hosting account. Go to your control panel. Look for the 
+                “WordPress” or “<strong>Website</strong>” icon. Choose the domain where you want to install your <strong>website</strong>.
+            </p>
+        </section>
+        <br>
+        <section>
+            <h3 class="title">How to Build a Website: the Step-by-Step Guide to Easy Setup ...</h3>
+            <cite class="url">https://www.websitebuilderexpert.com › building-websites <span class="arrow"></span></cite>‎
+            <p class="description"><span class="time">Dec 17, 2019 - </span>We'll be going through the <strong>website building</strong> process for both approaches here. 
+                You'll be surprised by how simple it can be, especially when ...
+            </p>
+        </section>
+        <br>
+        <section>
+            <h3 class="title">With zero coding experience, artist building 180 webpages in ...</h3>
+            <cite class="url">https://arstechnica.com › information-technology › 2013/07 › with-zero-c... <span class="arrow"></span></cite>‎
+            <p class="description"><span class="time">Jul 26, 2013 - </span>117 days ago, having never done any programming in her life, Jennifer Dewalt built her 
+                first <strong>webpage</strong>. The next day, she built another, and she ...
+            </p>
+        </section>
+        <br>
+        <section>
+            <div id="asked">
+                <h2 class="asked-content" id="asked-heading">People also ask</h2>
+                <div class="asked-content">
+                    <p>How can I create my own webpage?</p>
+                    <span class="down">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                        </svg>
+                    </span>
+                </div>  
+                <div class="asked-content">
+                    <p>How much does it cost to build a website?</p>
+                    <span class="down">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                        </svg>
+                    </span>
+                </div>     
+                <div class="asked-content">
+                    <p>How do you create a website for free?</p>
+                    <span class="down">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                        </svg>
+                    </span>
+                </div>   
+                <div class="asked-content">
+                    <p>How can I create a website using HTML?</p>
+                    <span class="down">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                        </svg>
+                    </span>
+                </div>    
+            </div>
+            <div id="feedback"><em>Feedback</em></div>
+        </section>
+        <br>
+        <section>
+            <h3 class="title">Webnode: Create a free website easily | Free website builder</h3>
+            <cite class="url">https://www.webnode.com <span class="arrow"></span></cite>‎
+            <p class="description">You can create and own your <strong>website</strong> for free for unlimited time. Make a ... With Webnode, you can <strong>build</strong> your online presence in less than 5 minutes. Sign up ...
+            </p>
+        </section>
+        <br>
+        <section>
+            <h3 class="title">How to Build A Website: A-to-Z Beginner Guide | BuildThis</h3>
+            <cite class="url">https://www.buildthis.io › make-a-website <span class="arrow"></span></cite>‎
+            <p class="description"><span class="time">Aug 19, 2019 - </span>It's easy to create a <strong>website</strong> today even if you aren't a tech-novice. Here are the 5 essential steps to follow if you wish to <strong>build</strong> a <strong>website</strong> by ...
+            </p>
+        </section>
+        <br>
+        <section>
+            <h3 class="title">Squarespace: Build a Website – Website Builder</h3>
+            <cite class="url">https://www.squarespace.com <span class="arrow"></span></cite>‎
+            <p class="description">Squarespace is the all-in-one solution for anyone looking to create a beautiful <strong>website</strong>. Domains, eCommerce, hosting, galleries, analytics, and 24/7 support all ...
+            </p>
+        </section>
+        <br>
+        <section>
+            <h3 class="title">How to Create a Website: Step-by-Step Guide for Beginners ...</h3>
+            <cite class="url">https://websitesetup.org <span class="arrow"></span></cite>‎
+            <p class="description">Learn how to make a <strong>website</strong> and set it up. This site contains different tutorials on how to <strong>build</strong> a <strong>website</strong> using WordPress, Joomla, Drupal &amp; HTML.
+            </p>
+        </section>
+        <br>
+        <section>
+            <h3 class="title">Free Website Builder For Your Business - Google My Business</h3>
+            <cite class="url">https://www.google.com › Google My Business › How It Works <span class="arrow"></span></cite>‎
+            <p class="description">Google My Business can automatically generate a <strong>website</strong> for you for free using info from your Business Profile, and you can edit it anytime.
+            </p>
+        </section>
+        <br>
+        <section>
+            <h3 class="title">How to Make a Website in 2019 - Free Easy Guide to Building ...</h3>
+            <cite class="url">https://makeawebsitehub.com <span class="arrow"></span></cite>‎
+            <p class="description"><span class="time">Jul 15, 2019 - </span>This site teaches you how to make a <strong>website</strong> in just 3 easy to follow steps. There's also lots of really useful resources to help you <strong>build</strong> traffic in ...
+            </p>
+        </section>
+        <br>
+        <section>
+            <div id="related-searches">
+                <h3>Searches related to build this webpage</h3>
+                <div id="searched-content">     
+                    <ul>
+                        <li><strong>website</strong></li>
+                        <li><strong>creating a website for your business</strong></li>
+                        <li><strong>how to create a website pdf</strong></li>
+                        <li><strong>creating a website 101</strong></li>
+                    </ul>
+                    <ul>
+                        <li>build <strong>a website everyday</strong></li>
+                        <li><strong>create professional website</strong></li>
+                        <li><strong>the odin project</strong></li>
+                        <li><strong>github</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div id="pagination">
+            <table>
+                <tr valign="top">
+                    <td id="G"><span></span></td>
+                    <td id="first-O"><span></span>1</td>
+                    <td><span></span>2</td>
+                    <td><span></span>3</td>
+                    <td><span></span>4</td>
+                    <td><span></span>5</td>
+                    <td><span></span>6</td>
+                    <td><span></span>7</td>
+                    <td><span></span>8</td>
+                    <td><span></span>9</td>
+                    <td><span></span>10</td>
+                    <td><span id="last"></span><span id="next">Next</span></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Send feedback</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
